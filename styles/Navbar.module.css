@@ -1,0 +1,45 @@
+.navbar{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    z-index: 2;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.logo > a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.logo > a:hover{
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.links > a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.links > a:hover{
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
+}
