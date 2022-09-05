@@ -6,26 +6,26 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <div className={styles.logo}>
-        <Link href="/">
+        <Link crossorigin="anonymous" href="/">
           <a>
-            <Image src="/logo.png" height={50} width={200} />
+            <Image crossorigin="anonymous" src="/logo.png" height={50} width={200} alt="img" />
           </a>
         </Link>
       </div>
       <div className={styles.links}>
-        <Link href="/">
+        <Link crossorigin="anonymous" href="/">
           <a>Ana Sayfa</a>
         </Link>
-        <Link href="/urunlerimiz">
+        <Link crossorigin="anonymous" href="/urunlerimiz">
           <a>Ürünlerimiz</a>
         </Link>
-        <Link href="/makine_parkuru">
+        <Link crossorigin="anonymous" href="/makine_parkuru">
           <a>Makine Parkuru</a>
         </Link>
-        <Link href="/hakkimizda">
+        <Link crossorigin="anonymous" href="/hakkimizda">
           <a>Hakkımızda</a>
         </Link>
-        <Link href="/iletisim">
+        <Link crossorigin="anonymous" href="/iletisim">
           <a>İletişim</a>
         </Link>
       </div>
