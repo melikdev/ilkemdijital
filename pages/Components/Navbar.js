@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className={styles.logo}>
         <Link crossorigin="anonymous" href="/">
           <a>
-            <Image crossorigin="anonymous" src="/logo.png" height={60} width={220} alt="img" />
+            <Image crossOrigin src="/logo.png" height={60} width={220} alt="img" />
           </a>
         </Link>
       </div>
