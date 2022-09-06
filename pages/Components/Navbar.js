@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className={styles.logo}>
         <Link crossorigin="anonymous" href="/">
           <a>
-            <Image crossOrigin src="/logo.png" height={60} width={220} alt="" />
+            <Image crossOrigin src="/LOGO.png" height={60} width={220} alt="" />
           </a>
         </Link>
       </div>
@@ -28,6 +28,7 @@ const Navbar = () => {
         <Link crossorigin="anonymous" href="/iletisim">
           <a>İletişim</a>
         </Link>
+        <hr />
       </div>
     </div>
   )
