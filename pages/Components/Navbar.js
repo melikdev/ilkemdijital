@@ -3,6 +3,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const Navbar = () => {
+
+  const handleScroll = () => {
+    alert('fuck off')
+  }
+
   return (
     <div className={styles.navbar}>
       <div className={styles.logo}>
@@ -28,7 +33,14 @@ const Navbar = () => {
         <Link crossorigin="anonymous" href="/iletisim">
           <a>İletişim</a>
         </Link>
-        <hr />
+        <div className={styles.divider}></div>
+        <div className={styles.social}>
+          <Link href="https://www.instagram.com/ilkemdijitalbaski/">
+            <a target="_blank">
+              <Image src="/instagram-logo.png" height={20} width={20} alt="" />
+            </a>
+          </Link>
+        </div>
       </div>
     </div>
   )

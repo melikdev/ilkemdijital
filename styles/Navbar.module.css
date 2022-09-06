@@ -11,13 +11,13 @@
     gap: 100px;
 }
 
-.logo > a{
+.logo a{
     color: #fff;
     text-decoration: none;
     transition: 0.3s ease-in-out;
 }
 
-.logo > a:hover{
+.logo a:hover{
     opacity: 0.5;
     transition: 0.3s ease-in-out;
 }
@@ -28,13 +28,23 @@
     font-size: 18px;
 }
 
-.links > a{
+.links a{
     color: #fff;
     text-decoration: none;
     transition: 0.3s ease-in-out;
 }
 
-.links > a:hover{
+.links a:hover{
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
+}
+
+.divider{
+    border: 0.5px solid #fff;
+}
+
+
+.social a:hover{
     opacity: 0.5;
     transition: 0.3s ease-in-out;
 }
