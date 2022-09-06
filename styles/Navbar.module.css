@@ -1,5 +1,5 @@
 .navbar{
-    position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -9,11 +9,6 @@
     align-items: center;
     justify-content: center;
     gap: 100px;
-}
-
-.logo{
-    font-weight: bold;
-    font-size: 30px;
 }
 
 .logo > a{
@@ -29,8 +24,8 @@
 
 .links{
     display: flex;
-    gap: 20px;
-    font-size: 15px;
+    gap: 23px;
+    font-size: 18px;
 }
 
 .links > a{
