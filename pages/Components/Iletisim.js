@@ -1,8 +1,12 @@
+import Head from 'next/head'
 import styles from '../../styles/Iletisim.module.css'
 
 const Iletisim = () => {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>İlkem Dijital - İletişim</title>
+      </Head>
       <div className={styles.form}>
         <p>Sormuş olduğunuz ürünün fiyat bilgisi, sistemimizde kullandığınız e-mail üzerinden tarafınıza bildirilecektir.</p>
         <label>Adınız: </label>
