@@ -1,0 +1,32 @@
+.container{ 
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('/background-contact.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: bold;
+}
+
+.form input{
+    border: none;
+    padding: 10px;
+}
+
+.form button{
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.form textarea{
+    resize: none;
+}

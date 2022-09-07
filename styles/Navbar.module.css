@@ -9,6 +9,8 @@
     align-items: center;
     justify-content: center;
     gap: 100px;
+    background-color: rgba(77, 72, 72, 0.267);
+    font-weight: bold;
 }
 
 .logo a{
@@ -16,6 +18,7 @@
     text-decoration: none;
     transition: 0.3s ease-in-out;
 }
+
 
 .logo a:hover{
     opacity: 0.5;

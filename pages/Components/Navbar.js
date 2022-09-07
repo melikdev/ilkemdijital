@@ -13,7 +13,8 @@ const Navbar = () => {
       <div className={styles.logo}>
         <Link crossorigin="anonymous" href="/">
           <a>
-            <Image crossOrigin src="/LOGO.png" height={60} width={220} alt="" />
+            <Image className={styles.logo_1} crossOrigin src="/ilkem-logo.png" height={70} width={90} alt="" />
+            <Image className={styles.logo_2} crossOrigin src="/LOGO.png" height={60} width={220} alt="" />
           </a>
         </Link>
       </div>
