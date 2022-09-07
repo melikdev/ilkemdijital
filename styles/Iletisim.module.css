@@ -1,6 +1,5 @@
 .container{ 
     display: flex;
-    justify-content: center;
     height: 100vh;
     background-image: url('/background-contact.jpg');
     background-position: center;
@@ -9,6 +8,7 @@
 
 .form{
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -24,7 +24,7 @@
 
 .form input:focus{
     outline: 2px solid rgb(81, 81, 196);
-    -webkit-transition: ease-in-out, .35s ease-in-out;
+    -webkit-transition: ease-in-out, 1s ease-in-out;
 }
 
 .form textarea:focus{
@@ -40,10 +40,18 @@
 
 .form textarea{
     resize: none;
+    border: none;
 }
 
 .form p{
     font-size: 13px;
     color: #555;
+}
+
+.map{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
 }
 
